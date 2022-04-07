@@ -49,7 +49,7 @@ export const Ancora = styled.a`
   transition: 0.3s;
   
   &.active {
-    background-color: black;
+    background-color: red;
   }
   @media (min-width: 560px) {
     align-items: center;

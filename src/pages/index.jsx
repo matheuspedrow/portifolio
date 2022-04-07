@@ -11,7 +11,7 @@ export default function Home() {
         <Function>FullStack Developer Jr.</Function>
         <Intro>Estudante de Analise e Desenvolvimento de Sistemas, 
           tenho experiência em desenvolvimento Web
-          (React, JS, CSS e outros), porem, busco sempre continuar aprendendo cada vez mais.
+          (React, JS, CSS, NodeJS, NextJS, MySql e outros), busco sempre continuar aprendendo cada vez mais.
         </Intro>
         <Link href="projects">
           <LinkProjects>PROJETOS <FaArrowRight /></LinkProjects>
