@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Container, Content, Ul, Li, TitleProject, Url, Created_at } from './style'
 
-export default function Projects() {
+function Projects() {
   const [itemsApi, setItemsApi] = useState([])
 
   useEffect(() => {
@@ -42,3 +42,5 @@ export default function Projects() {
    </Container>
   )
 }
+
+export default Projects
