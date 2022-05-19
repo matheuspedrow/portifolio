@@ -31,7 +31,7 @@ function Projects() {
         {itemsApi.map(item => (
           <Li key={item.id}>
             <TitleProject>{item.name.toUpperCase()}</TitleProject>
-            <Url>URL: {item.url}</Url>
+            <Url>{item.url}</Url>
             <Created_at>Data Criação: { Intl.DateTimeFormat('pt-BR')
               .format(new Date(item.created_at))}
             </Created_at>

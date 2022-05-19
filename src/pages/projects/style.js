@@ -48,8 +48,28 @@ export const Li = styled.li`
   }
 `;
 
-export const TitleProject = styled.strong``;
 
-export const Url = styled.span``;
+export const TitleProject = styled.strong`
+  font-size: 20px;
+  font-weight: bold;
+  color: #2f2f2f;
+  @media (max-width: 760px) {
+    font-size: 15px;
+  }
+  
+`;
 
-export const Created_at = styled.span``;
+export const Url = styled.span`
+  color: #0066ff;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+
+`;
+
+export const Created_at = styled.span`
+  font-size: 12px;
+  color: gray;
+  `;
+

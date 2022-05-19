@@ -1,7 +1,8 @@
 import React from 'react'
 import { Container, Content } from './style'
-import { FaLinkedin, FaFacebook, FaInstagram, FaEnvelope, FaGithub } from 'react-icons/fa'
+import { FaLinkedin, FaInstagram, FaEnvelope, FaGithub, } from 'react-icons/fa'
 import ItemContact from '../../../components/ItemContact'
+
 
 function Contact() {
   return (
@@ -9,7 +10,7 @@ function Contact() {
       <Content>
         <ItemContact 
           IconFa={FaLinkedin} 
-          LinkContact="https://www.linkedin.com/in/matheusrebeschini/" 
+          LinkContact="https://www.linkedin.com/in/matheusrebeschini" 
         />
         <ItemContact 
           IconFa={FaGithub} 
@@ -17,7 +18,7 @@ function Contact() {
         />
         <ItemContact 
           IconFa={FaInstagram} 
-          LinkContact="https://www.instagram.com/matheuspedrow/" 
+          LinkContact="https://www.instagram.com/matheuspedrow"  
         />
         <ItemContact 
           IconFa={FaEnvelope} 
