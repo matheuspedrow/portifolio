@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Content } from './style'
 import { FaLinkedin, FaInstagram, FaEnvelope, FaGithub, } from 'react-icons/fa'
-import ItemContact from '../../../components/ItemContact'
+import ItemContact from '../../src/components/ItemContact'
 
 
 function Contact() {
